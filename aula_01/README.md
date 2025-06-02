@@ -1,1 +1,0 @@
-Python, Git e VSCode
