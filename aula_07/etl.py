@@ -2,6 +2,7 @@ import csv
 
 path_arquivo = "vendas.csv"
 
+
 def ler_csv(nome_arquivo_csv: str) -> list[dict]:
     """
     Função que lê um arquivo csv e retorna uma lista de dicionários
@@ -14,6 +15,7 @@ def ler_csv(nome_arquivo_csv: str) -> list[dict]:
             lista.append(linha)
     return lista
 
+
 def filtrar_produtos_nao_entregues(lista: list[dict]) -> list[dict]:
     """
     Função que filtra produtos em que entrega = True
@@ -23,6 +25,7 @@ def filtrar_produtos_nao_entregues(lista: list[dict]) -> list[dict]:
         if produto.get("entregue") == "True":
             lista_produtos_filtrados.append(produto)
     return lista_produtos_filtrados
+
 
 def soma_valores_produtos(lista_produtos_filtrados: list[dict]) -> int:
     """
