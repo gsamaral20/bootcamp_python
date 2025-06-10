@@ -1,4 +1,4 @@
-from etl import ler_csv, filtrar_produtos_nao_entregues, soma_valores_produtos
+from etl import filtrar_produtos_nao_entregues, ler_csv, soma_valores_produtos
 
 path_arquivo = "vendas.csv"
 
