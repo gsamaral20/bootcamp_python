@@ -4,22 +4,31 @@ repos:
     hooks:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
+        files: ^aula_06/
       - id: end-of-file-fixer
+        files: ^aula_06/
       - id: check-yaml
+        files: ^aula_06/
       - id: check-toml
+        files: ^aula_06/
       - id: detect-private-key
+        files: ^aula_06/
       - id: check-added-large-files
+        files: ^aula_06/
   - repo: https://github.com/psf/black-pre-commit-mirror
     rev: 24.1.1
     hooks:
       - id: black
         language_version: default
+        files: ^aula_06/
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
       - id: isort
         name: isort (python)
+        files: ^aula_06/
   - repo: https://github.com/pycqa/flake8
     rev: 7.0.0
     hooks:
       - id: flake8
+        files: ^aula_06/
