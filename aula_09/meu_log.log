@@ -1,0 +1,5 @@
+2025-06-12 21:54:08.763 | CRITICAL | __main__:soma:11 - Você tem que digitar valores corretos
+2025-06-12 21:54:08.764 | INFO     | __main__:soma:13 - 2
+2025-06-12 21:54:08.765 | INFO     | __main__:soma:14 - 3
+2025-06-12 21:54:58.031 | INFO     | __main__:soma:8 - Você digitou valores corretos, 5
+2025-06-12 21:57:36.412 | CRITICAL | __main__:soma:11 - Você tem que digitar valores corretos
